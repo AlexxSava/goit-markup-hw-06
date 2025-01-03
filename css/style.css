@@ -987,6 +987,7 @@
         .footer-wrap {
             display: flex;
             align-items: baseline;
+            width: 1158px;
         }
         .footer-first {
             margin: 0;
@@ -1229,6 +1230,12 @@
         .form-checkbox-link {
             color: #4d5ae5;
             margin-left: 28px;
+        }
+
+        @media (min-width: 768px) {
+            .form-checkbox-link {
+                margin-left: 4px;
+            }
         }
 
         .button-main {
